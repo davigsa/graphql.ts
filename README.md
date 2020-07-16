@@ -1,4 +1,4 @@
-# Creating Boilerplate API Node.js 🧢
+# Creating Boilerplate API GraphQL 🧢
 
 A Typescript project thats create a simple API with Node.js and GraphQL. Created with one resolver that prints a Hllo world:
 
