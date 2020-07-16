@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "lib": ["ES6"],
+    "outDir": "./build",
+    "rootDir": "./src",
+    "removeComments": true,
+    "strict": false,
+    "typeRoots": ["./node_modules/@types", "./src/@types"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@schemas/*": ["./src/graphql/schemas/*"],
+      "@resolvers/*": ["./src/graphql/resolvers/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
